@@ -28,9 +28,10 @@ body {
   .description{
     white-space: pre-wrap;
     box-sizing: border-box;
-    width: 85%;
+    width: 100%;
     position: absolute;
     bottom: 18px;
+    left: -5px;
   }
   
   .time-block{
@@ -71,6 +72,8 @@ body {
     border-bottom-right-radius: 15px;
     background-color: #06AED5;
     color: white;
+    text-align: center;
+    
   }
   
   .saveBtn i:hover {
