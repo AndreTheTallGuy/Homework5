@@ -38,7 +38,17 @@ $(document).ready(function () {
 
     $.each($("*[data-value]"), function (index, element) {
         var test = ($(element).attr("data-value"))
-        console.log(test);
+        var arr = test.split(', ')
+        console.log(arr);
+        if (arr === d.getHours) {
+            this.classList.add("present")
+
+        } else if (arr < d.getHours) {
+            this.classList.add("past")
+        } else {
+            this.classList.add("future")
+        }
+
 
 
         //     var testParse = JSON.parse(test)
