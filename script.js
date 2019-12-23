@@ -40,10 +40,10 @@ $(document).ready(function () {
         var test = ($(element).attr("data-value"))
         var arr = test.split(', ')
         console.log(arr);
-        if (arr == d.getHours) {
+        if (arr == d.getHours()) {
             this.classList.add("present")
 
-        } else if (arr < d.getHours) {
+        } else if (arr < d.getHours()) {
             this.classList.add("past")
         } else {
             this.classList.add("future")
