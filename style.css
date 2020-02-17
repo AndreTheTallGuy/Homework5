@@ -5,13 +5,11 @@ body {
   background: url("https://images.pexels.com/photos/317346/pexels-photo-317346.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-repeat: ; */
 }
 
 textarea {
   background: transparent;
   border: none;
-  resize: none;
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
@@ -23,12 +21,16 @@ table {
 .jumbotron {
   text-align: center;
   background-color: transparent;
-  color: black;
+  color: white;
+  box-shadow: 0 0 15px #000000;
   border-radius: 0;
   border-bottom: 10px solid black;
   padding: 20px 40px;
+  text-shadow: 0 0 15px black;
 }
-
+.jumbotron p {
+  font-weight: 600;
+}
 .events {
   position: relative;
 }
@@ -36,10 +38,11 @@ table {
 .description {
   white-space: pre-wrap;
   box-sizing: border-box;
-  width: 100%;
+  width: 100.5%;
   position: absolute;
   bottom: 18px;
   left: -5px;
+  height: 74%;
 }
 
 .row {
