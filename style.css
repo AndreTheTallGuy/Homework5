@@ -6,7 +6,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 textarea {
   background: transparent;
   border: none;
@@ -17,7 +16,6 @@ textarea {
 table {
   background: white;
 }
-
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -34,7 +32,6 @@ table {
 .events {
   position: relative;
 }
-
 .description {
   white-space: pre-wrap;
   box-sizing: border-box;
@@ -44,13 +41,11 @@ table {
   left: -5px;
   height: 74%;
 }
-
 .row {
   white-space: pre-wrap;
   height: 55px;
   /* border-top: 1px solid white; */
 }
-
 .hour {
   background-color: #ffffff;
   color: #000000;
@@ -66,17 +61,14 @@ table {
   background-color: #d3d3d3;
   color: white;
 }
-
 .present {
   background-color: #ff6961;
   color: white;
 }
-
 .future {
   background-color: #77dd77;
   color: white;
 }
-
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
@@ -86,7 +78,6 @@ table {
   text-align: center;
   height: 55px;
 }
-
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
