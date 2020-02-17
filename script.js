@@ -1,7 +1,7 @@
 $(document).ready(function() {
   var d = new Date();
   d.getHours();
-  console.log(d.getHours());
+  //   console.log(d.getHours());
 
   var event = $(".description");
 
